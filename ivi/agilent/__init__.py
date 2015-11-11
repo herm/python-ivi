@@ -217,6 +217,9 @@ from .agilent436A import agilent436A
 from .agilent437B import agilent437B
 
 # RF Signal Generators
+# 8373x
+from .agilent83731 import agilent83731
+from .agilent83732 import agilent83732
 # 8642A/B
 from .agilent8642A import agilent8642A
 from .agilent8642B import agilent8642B
