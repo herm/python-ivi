@@ -26,3 +26,4 @@ THE SOFTWARE.
 
 # Source measure units
 from .keithley236 import keithley236
+from .keithley2002 import keithley2002
