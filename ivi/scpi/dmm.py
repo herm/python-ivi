@@ -31,9 +31,9 @@ from .. import dmm
 from . import common
 
 MeasurementFunctionMapping = {
-        'dc_volts': 'volt',
+        'dc_volts': 'volt:dc',
         'ac_volts': 'volt:ac',
-        'dc_current': 'curr',
+        'dc_current': 'curr:dc',
         'ac_current': 'curr:ac',
         'two_wire_resistance': 'res',
         'four_wire_resistance': 'fres',
