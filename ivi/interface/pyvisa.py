@@ -126,3 +126,7 @@ class PyVisaInstrument:
     def unlock(self):
         "Send unlock command"
         self.instrument.unlock()
+        
+    def close(self):
+        "Close connection"
+        self.instrument.close()
